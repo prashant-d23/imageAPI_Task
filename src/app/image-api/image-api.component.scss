@@ -1,0 +1,29 @@
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.loader{
+display: flex;
+justify-content: center;
+}
+nav{
+  background-color: rgb(131, 19, 243);
+}
+
+.card {
+  flex: 0 0 18rem; /* Set the flex properties for each card */
+  border: 1px solid #ccc;
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Apply a slight scale transformation on hover */
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove margin from the last card to prevent extra spacing */
+}
